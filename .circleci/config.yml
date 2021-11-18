@@ -34,7 +34,7 @@ workflows:
       - schedule:
           cron: "10 1 * * *"
           filters:
-            braches:
+            branches:
               only:
                 - master
     jobs:
